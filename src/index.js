@@ -12,7 +12,7 @@ import { App } from 'components/App';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ReduxProvider store={store}>
-      <BrowserRouter basename="/SoYummy">
+      <BrowserRouter basename="/react_node_fs_56_artipavl">
           <App />
           <GlobalStyle />
       </BrowserRouter>
